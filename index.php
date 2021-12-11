@@ -148,7 +148,7 @@
           subscribe to our
           <strong class="newsletter-title__strong">Newsletter</strong>
         </h2>
-        <form action="newsletter.php" method="post" class="subscribe newsletter__subscribe" data-aos="fade-left">
+        <form action="newsletter.php" method="post" class="form subscribe newsletter__subscribe" data-aos="fade-left">
           <input
             type="email"
             name="email"
