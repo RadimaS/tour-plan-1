@@ -76,7 +76,7 @@
         </h3>
         <div class="footer__social-links">
           <a
-            href="https://facebook.com/tanzila"
+            href="https://facebook.com/"
             class="footer__link"
             target="_blank"
           >
@@ -241,7 +241,7 @@
           <img src="img/close.svg" alt="icon: close" />
         </a>
         <h3 class="modal__title modal__title--mb-3">BOOKING</h3>
-        <form action="send.php" method="POST" class="form modal__form">
+        <form action="booking.php" method="post" class="form modal__form">
           <input
             type="text"
             class="input modal__input"
