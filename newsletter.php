@@ -8,11 +8,14 @@ require 'phpmailer/Exception.php';
 $email = $_POST['email'];
 
 // Формирование самого письма
-$title = "Оформление подписки";
-$body = "
-<h2>Запрос на подписку</h2>
-<b>От:</b> $email<br>
-";
+if (!empty($email)) {
+  $title = "Оформление подписки";
+  $body = "
+  <h2>Запрос на подписку</h2>
+  <b>От:</b> $email<br>
+  ";
+}
+
 
 // Настройки PHPMailer
 $mail = new PHPMailer\PHPMailer\PHPMailer();

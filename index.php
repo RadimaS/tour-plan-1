@@ -154,6 +154,7 @@
             name="email"
             class="subscribe__input"
             placeholder="Your email address"
+            required
           />
           <button class="subscribe__button">Send</button>
         </form>

@@ -10,13 +10,16 @@ $phone = $_POST['phone'];
 $message = $_POST['message'];
 
 // Формирование самого письма
-$title = "Сообщение от клиентов";
-$body = "
-<h2>Новое сообщение</h2>
-<b>Имя:</b> $name<br>
-<b>Телефон:</b> $phone<br><br>
-<b>Сообщение:</b><br>$message
-";
+if (!empty($name) && !empty($phone)) {
+  $title = "Сообщение от клиентов";
+  $body = "
+  <h2>Новое сообщение</h2>
+  <b>Имя:</b> $name<br>
+  <b>Телефон:</b> $phone<br><br>
+  <b>Сообщение:</b><br>$message
+  ";
+}
+
 
 // Настройки PHPMailer
 $mail = new PHPMailer\PHPMailer\PHPMailer();
