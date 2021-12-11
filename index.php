@@ -44,7 +44,8 @@
         <!-- /.hotel-info -->
         <div class="hotel-grid">
           <!-- Slider main container -->
-          <div class="swiper hotel-slider hotel__slider">
+          <div class="swiper hotel-slider hotel__slider" data-aos="fade-up"
+            data-aos-delay="100">
             <!-- Additional required wrapper -->
             <div class="swiper-wrapper">
               <!-- Slides -->
@@ -80,7 +81,7 @@
           </div>
           <!-- /.swiper-->
           <div class="hotel-right">
-            <div class="booking">
+            <div class="booking" data-aos="fade-up" data-aos-delay="200">
               <div class="booking__info">
                 <div class="booking__price">
                   <span class="booking__start">price starts as</span>
@@ -124,7 +125,7 @@
               </button>
             </div>
             <!-- /.booking -->
-            <div class="map">
+            <div class="map" data-aos="fade-up" data-aos-delay="200">
               <iframe
                 class="map__iframe"
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3048.6670163373474!2d44.506173215256254!3d40.17196697939438!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x406abc563de1b3ef%3A0x58644258dc216173!2sDoubleTree%20by%20Hilton%20Hotel%20Yerevan%20City%20Centre!5e0!3m2!1sru!2sru!4v1637961299772!5m2!1sru!2sru"
@@ -143,11 +144,11 @@
     </section>
     <section class="newsletter">
       <div class="newsletter-wrapper">
-        <h2 class="newsletter-title newsletter__title">
+        <h2 class="newsletter-title newsletter__title" data-aos="fade-right">
           subscribe to our
           <strong class="newsletter-title__strong">Newsletter</strong>
         </h2>
-        <form action="#" method="POST" class="subscribe newsletter__subscribe">
+        <form action="#" method="POST" class="subscribe newsletter__subscribe" data-aos="fade-left">
           <input
             type="email"
             name="newsletterEmail"
@@ -223,13 +224,15 @@
                 <!-- /.reviews-slider__profile -->
                 <div class="reviews-slider__container">
                   <p class="reviews-slider__text">
-                    something something something something something something
-                    something something something somethin something something
-                    something something something something something something
-                    something something something something something something
-                    something something something something something something
-                    something something something something somethingsomething
-                    something something something something
+                    It was very nice hotel with cleanliness. Staff behavior was
+                    good and polite. They welcome us very well. Issue was only
+                    that Lift was not in working and we were allotted to 3rd
+                    floor and amenities articles were in corner of gallery which
+                    were giving bad feeling. Breakfast was good and support of
+                    the staff was also very nice. Location is not good as per
+                    atmosphere, it is very nearby most of the popular places but
+                    self location in a narrow street is not good. Overall it was
+                    a good experience and could recommend.
                   </p>
                 </div>
               </div>
@@ -254,7 +257,8 @@
       <div class="container">
         <h2 class="activities__title">Other Activities</h2>
         <div class="activities-wrapper">
-          <div class="card activities__card activities__first" data-aos="zoom-out">
+          <div class="card activities__card activities__first" data-aos="fade-up"
+            data-aos-delay="100">
             <img
               src="img/activities/activity-1.jpg"
               alt="The curious corner 
@@ -267,7 +271,8 @@
             <!-- /.card__button -->
           </div>
           <!-- /.card -->
-          <div class="card activities__card activities__second" data-aos="zoom-out">
+          <div class="card activities__card activities__second"  data-aos="fade-up"
+            data-aos-delay="300">
             <img
               src="img/activities/activity-2.jpg"
               alt="Gymkhana club golf
@@ -280,7 +285,8 @@
             <!-- /.card__button -->
           </div>
           <!-- /.card -->
-          <div class="card activities__card activities__third" data-aos="zoom-out">
+          <div class="card activities__card activities__third" data-aos="fade-up"
+            data-aos-delay="500">
             <img
               src="img/activities/activity-3.jpg"
               alt="Tamarind falls hiking
@@ -295,7 +301,8 @@
             <!-- /.card__button -->
           </div>
           <!-- /.card -->
-          <div class="card activities__card activities__four" data-aos="zoom-out">
+          <div class="card activities__card activities__four" data-aos="fade-up"
+            data-aos-delay="700">
             <img
               src="img/activities/activity-4.jpg"
               alt="The blue marine discovery

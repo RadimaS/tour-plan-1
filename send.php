@@ -50,14 +50,14 @@ try {
 
     // Настройки вашей почты
     $mail->Host       = 'smtp.gmail.com'; // SMTP сервера вашей почты
-    $mail->Username   = 'tanzilabisultanova4@gmail.com'; // Логин на почте
-    $mail->Password   = 'tanzilapassword95'; // Пароль на почте
+    $mail->Username   = 'selimova248@gmail.com'; // Логин на почте
+    $mail->Password   = 'dseiyogjlaqegmzg'; // Пароль на почте
     $mail->SMTPSecure = 'ssl';
     $mail->Port       = 465;
-    $mail->setFrom('tanzilabisultanova4', 'Tanzila'); // Адрес самой почты и имя отправителя
+    $mail->setFrom('selimova248@gmail.com', 'Radima Selimova'); // Адрес самой почты и имя отправителя
 
     // Получатель письма
-    $mail->addAddress('tanzbis81@gmail.com');  
+    $mail->addAddress('radmond11@gmail.com');  
 
     // Прикрипление файлов к письму
     // Отправка сообщения

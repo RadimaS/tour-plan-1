@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Best Tour plan - Hotel booking</title>
-    <link rel="shortcut icon" href="img/favicon.svg" type="image/x-icon"> 
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon"> 
     <link
       href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800&display=swap"
       rel="stylesheet"
@@ -23,8 +23,8 @@
   <body>
     <header class="navbar navbar--mobile_fixed">
       <div class="container">
-        <div class="navbar-top" data-aos="fade-up">
-          <a href="index.php" class="logo">
+        <div class="navbar-top" >
+          <a href="index.php" class="logo"   data-aos="fade-right" data-aos-delay="100">
             <img
               src="img/horizontal.svg"
               alt="logo: Best tour plan"
@@ -33,6 +33,7 @@
           </a>
 
           <form
+          data-aos="fade-right" data-aos-delay="200"
             action="#"
             class="search navbar__search navbar__search--mobile_hidden"
           >
@@ -46,7 +47,8 @@
             </button>
           </form>
 
-          <a href="#" class="user navbar__user navbar__user--mobile_hidden">
+          <a href="#" class="user navbar__user navbar__user--mobile_hidden" data-aos="fade-right"
+            data-aos-delay="300">
             <img
               src="img/user-avatar.jpg"
               alt="avatar: Nathan"
